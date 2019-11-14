@@ -3,6 +3,7 @@
 namespace NetoJose\Bootstrap4Forms;
 
 use Illuminate\Support\ViewErrorBag;
+use Illuminate\Support\HtmlString;
 
 class FormBuilder
 {
@@ -55,7 +56,7 @@ class FormBuilder
         $methodName = 'render' . ucfirst($render);
         $output = $this->$methodName();
         $this->resetAttributes();
-        return $output;
+        return new HtmlString($output);
     }
 
     private function renderFormOpen(): string
