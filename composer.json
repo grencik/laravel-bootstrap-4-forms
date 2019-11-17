@@ -29,10 +29,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NetoJose\\Bootstrap4Forms\\Bootstrap4FormsServiceProvider"
+                "Greno\\Laravel\\Bootstrap4Forms\\Bootstrap4FormsServiceProvider"
             ],
             "aliases": {
-                "Form": "NetoJose\\Bootstrap4Forms\\Bootstrap4FormsFacade"
+                "Form": "Greno\\Laravel\\Bootstrap4Forms\\Bootstrap4FormsFacade"
             }
         }
     }

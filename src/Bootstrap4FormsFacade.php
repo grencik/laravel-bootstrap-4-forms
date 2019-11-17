@@ -1,6 +1,6 @@
 <?php
 
-namespace NetoJose\Bootstrap4Forms;
+namespace Greno\Laravel\Bootstrap4Forms;
 
 use \Illuminate\Support\Facades\Facade;
 
